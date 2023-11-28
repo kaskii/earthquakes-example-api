@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Earthquakes.WebApi", "Earthquakes.WebApi\Earthquakes.WebApi.csproj", "{F5BC66DF-3B3A-4799-9641-D4E936A8B377}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Earthquakes.DataAccess", "Earthquakes.DataAccess\Earthquakes.DataAccess.csproj", "{2A740E33-4D1A-467F-B146-2EE0DFD7E275}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Earthquakes.Logic", "Earthquakes.Logic\Earthquakes.Logic.csproj", "{508B61B0-9D6D-4DF3-8E59-8D0ADE0904E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Earthquakes.LogicInterface", "Earthquakes.LogicInterface\Earthquakes.LogicInterface.csproj", "{7AD600DF-6661-46C4-BC58-4672F957D4A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5BC66DF-3B3A-4799-9641-D4E936A8B377}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5BC66DF-3B3A-4799-9641-D4E936A8B377}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5BC66DF-3B3A-4799-9641-D4E936A8B377}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5BC66DF-3B3A-4799-9641-D4E936A8B377}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A740E33-4D1A-467F-B146-2EE0DFD7E275}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A740E33-4D1A-467F-B146-2EE0DFD7E275}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A740E33-4D1A-467F-B146-2EE0DFD7E275}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A740E33-4D1A-467F-B146-2EE0DFD7E275}.Release|Any CPU.Build.0 = Release|Any CPU
+		{508B61B0-9D6D-4DF3-8E59-8D0ADE0904E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{508B61B0-9D6D-4DF3-8E59-8D0ADE0904E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{508B61B0-9D6D-4DF3-8E59-8D0ADE0904E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{508B61B0-9D6D-4DF3-8E59-8D0ADE0904E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AD600DF-6661-46C4-BC58-4672F957D4A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AD600DF-6661-46C4-BC58-4672F957D4A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AD600DF-6661-46C4-BC58-4672F957D4A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AD600DF-6661-46C4-BC58-4672F957D4A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

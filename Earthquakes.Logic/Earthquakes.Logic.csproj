@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Earthquakes.DataAccess\Earthquakes.DataAccess.csproj" />
+      <ProjectReference Include="..\Earthquakes.LogicInterface\Earthquakes.LogicInterface.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="AutoMapper" Version="12.0.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="Microsoft.AspNetCore.Hosting.Abstractions">
+        <HintPath>C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.0\Microsoft.AspNetCore.Hosting.Abstractions.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+</Project>
